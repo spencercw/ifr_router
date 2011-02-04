@@ -2,3 +2,7 @@ This library can be used to parse an IFR route into a series of waypoints using 
 It has two modes of operation: attended and unattended. In attended mode, any ambiguous tokens in
 the route will be queried (i.e., a list of possibilites will be given, which can be shown to the
 user for manual selection). In unattended mode a best guess will be made to the intended route.
+
+Download the navdata from the X-Plane website [1] and place the data files in the navdata folder.
+
+[1] http://data.x-plane.com/get_data.html
